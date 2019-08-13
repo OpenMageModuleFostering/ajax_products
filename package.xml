@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>ajax_products</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Load Ajax Products in the category pages </summary>
+    <description>Load Ajax Products in the category pages </description>
+    <notes>Load Ajax Products in the category pages&#xD;
+</notes>
+    <authors><author><name>Mohammed Meabed</name><user>meabed</user><email>mo.meabed@gmail.com</email></author></authors>
+    <date>2013-09-04</date>
+    <time>08:39:46</time>
+    <contents><target name="magecommunity"><dir name="Web"><dir name="AjaxProducts"><dir name="Block"><file name="Js.php" hash="59a8076432ea7227085170d1af81de60"/></dir><dir name="Helper"><file name="Data.php" hash="b38bab8518e794716bbff2b1999503c2"/></dir><dir name="controllers"><file name="IndexController.php" hash="fcfee0a719ca2bd2fadf9a8fa6652257"/></dir><dir name="etc"><file name="config.xml" hash="f3f8bb15534a9297d1fac8fc80d26363"/><file name="system.xml" hash="9bc59dd30d05cac4d6c181910a14fc14"/></dir><dir name="sql"><dir name="web_ajaxproducts_setup"><file name="mysql4-install-1.0.0.php" hash="ced8cdf1ae54dd079badea01c520d6ef"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="ajaxproducts.xml" hash="04399975d8172e481722b989b8dba201"/></dir><dir name="template"><dir name="extra"><file name="js.phtml" hash="584741370ee35004bccf57fbfc0eb4ee"/></dir><dir name="catalog"><dir name="product"><file name="list_ajax.phtml" hash="4fd04ae7bde2e16d1eb7d9172e2cfb84"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Web_AjaxProducts.xml" hash="19d046a996eaee43c2504419fc329ce7"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.1</min><max>6.0.0</max></php></required></dependencies>
+</package>
