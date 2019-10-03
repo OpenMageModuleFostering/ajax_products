@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/ajax_products",
+    "name": "OpenMageModuleFostering\/ajax_products",
     "type": "magento-module",
     "license": "LGPL",
     "homepage": "",
     "description": "Load Ajax Products in the category pages ",
     "authors": [
-    {
-        "name": "Mohammed Meabed",
-        "email": "mo.meabed@gmail.com"
-    }
-],
+        {
+            "name": "Mohammed Meabed",
+            "email": "mo.meabed@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
